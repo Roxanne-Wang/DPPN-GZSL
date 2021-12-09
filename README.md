@@ -17,7 +17,7 @@ Please download CUB, SUN, aPY datasets, and ResNet101 pretrained model.
 ## Train
 
 Please specify the script file. 
-For example, if you want to train on CUB dataset, you should specify the DATAPATH  (for dataset path), SAVEPATH (for log and model save dir path), RESNETPRE (for resnet pretrained model path) in the scripts/cub.sh, and then run:
+For example, if you want to train on CUB dataset, you should specify the DATAPATH  (for dataset path), SAVEPATH (for log and model save dir path), RESNETPRE (for resnet pretrained model path) in the scripts/cub.sh, and then run on three 1080ti GPUs:
 
 ``` 
 cd scripts
